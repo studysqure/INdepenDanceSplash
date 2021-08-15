@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_gradient_color"
+    tools:context=".MainActivity">
+
+
+
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="400dp"
+        android:layout_height="330dp"
+        app:lottie_rawRes="@raw/india"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        android:layout_centerInParent="true"/>
+<!--<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <View
+        android:id="@+id/ll_4"
+        android:layout_width="25dp"
+        android:layout_height="110dp"
+        android:background="#FF5E0E"
+       />
+    <View
+        android:id="@+id/ll_5"
+        android:layout_width="25dp"
+        android:layout_height="130dp"
+        android:background="#FF5E0E"
+        android:layout_toRightOf="@+id/ll_4"
+       />
+    <View
+        android:id="@+id/ll_6"
+        android:layout_width="25dp"
+        android:layout_height="150dp"
+        android:background="#FF5E0E"
+        android:layout_toRightOf="@+id/ll_5"
+      />
+
+    <View
+        android:id="@+id/ll_7"
+        android:layout_width="25dp"
+        android:layout_height="170dp"
+        android:background="#FF5E0E"
+        android:layout_toRightOf="@+id/ll_6"
+        />
+
+    <View
+        android:id="@+id/ll_8"
+        android:layout_width="25dp"
+        android:layout_height="200dp"
+        android:background="#FF5E0E"
+        android:layout_toRightOf="@+id/ll_7"
+        />
+
+    <View
+        android:id="@+id/ll_9"
+        android:layout_width="25dp"
+        android:layout_height="220dp"
+        android:background="@color/white"
+        android:layout_toRightOf="@+id/ll_8"
+        />
+
+    <View
+        android:id="@+id/ll_10"
+        android:layout_width="25dp"
+        android:layout_height="240dp"
+        android:background="@color/white"
+        android:layout_toRightOf="@+id/ll_9"
+        />
+    <View
+        android:id="@+id/ll_11"
+        android:layout_width="25dp"
+        android:layout_height="260dp"
+        android:background="@color/white"
+        android:layout_toRightOf="@+id/ll_10"
+        />
+    <View
+        android:id="@+id/ll_12"
+        android:layout_width="25dp"
+        android:layout_height="280dp"
+        android:background="@color/white"
+        android:layout_toRightOf="@+id/ll_11"
+        />
+    <View
+        android:id="@+id/ll_13"
+        android:layout_width="25dp"
+        android:layout_height="300dp"
+        android:background="@color/white"
+        android:layout_toRightOf="@+id/ll_12"
+        />
+
+    <View
+        android:id="@+id/ll_14"
+        android:layout_width="25dp"
+        android:layout_height="320dp"
+        android:layout_toRightOf="@+id/ll_13"
+        android:background="#FFA000" />
+
+    <View
+        android:id="@+id/ll_15"
+        android:layout_width="25dp"
+        android:layout_height="340dp"
+         android:background="#FFA000" />
+
+    <View
+        android:id="@+id/ll_16"
+        android:layout_width="25dp"
+        android:layout_height="360dp"
+       
+         android:background="#FFA000" />
+
+    <View
+        android:id="@+id/ll_17"
+        android:layout_width="25dp"
+        android:layout_height="380dp"
+         android:background="#FFA000" />
+
+    <View
+        android:id="@+id/ll_18"
+        android:layout_width="25dp"
+        android:layout_height="400dp"
+         android:background="#FFA000" />
+    
+</LinearLayout>-->
+
+<!--    <ImageView
+        android:id="@+id/dence_day"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/ashok_chakra"
+        android:layout_marginStart="10dp"
+        android:layout_centerHorizontal="true"/>-->
+</RelativeLayout>
